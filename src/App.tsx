@@ -1,8 +1,10 @@
 import React from 'react';
 import {
-  StyleSheet, Text, View,
+  StyleSheet, Text, View, LogBox,
 } from 'react-native';
 import GameView from './GameView';
+
+LogBox.ignoreAllLogs(true);
 
 const styles = StyleSheet.create({
   title: {
